@@ -1,0 +1,1 @@
+[![Python CI](https://github.com/Kostyanuch-c/Practic/actions/workflows/ci.yaml/badge.svg)](https://github.com/Kostyanuch-c/Practic/actions/workflows/ci.yaml)
