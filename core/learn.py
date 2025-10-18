@@ -13,4 +13,7 @@ class Solution:
         return start
 
 
-print(Solution().searchInsert([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 4))
+if __name__ == "__main__":
+    solution = Solution()
+    args = [1, 2, 4, 5, 6, 7]
+    print(solution.searchInsert(args, 3))

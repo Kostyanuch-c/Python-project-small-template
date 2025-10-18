@@ -16,3 +16,10 @@ lint:
 	@flake8 core
 
 check: lint typecheck
+
+.PHONY: test
+test:
+	@pytest
+
+test-coverage:
+	@pytest --cov=core --cov-report=lcov:reports/lcov.info

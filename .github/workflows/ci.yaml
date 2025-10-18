@@ -23,3 +23,12 @@ jobs:
       - name: Run lint
         run: |
           make check
+      - name: Run tests with coverage
+        run: |
+          make test-coverage
+      - name: Upload coverage to Qlty
+        if: github.ref_name == 'main'
+        uses: qltysh/qlty-action/coverage@v2
+        with:
+          token: ${{ secrets.QLTY_COVERAGE_TOKEN }}
+          files: reports/lcov.info
