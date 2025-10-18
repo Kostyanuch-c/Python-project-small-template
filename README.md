@@ -4,8 +4,6 @@
 
 # Python Project Small Template
 
-A minimal and clean **Python project template** — perfect for starting new small libraries, tools, or scripts with best practices already in place.
-
 ## What's Included
 
 * `setup.cfg` — Preconfigured for **mypy**, **flake8**, **isort**, and **black**.
